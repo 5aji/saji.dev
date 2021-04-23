@@ -3,7 +3,7 @@
 $font-stack: 'Roboto Mono', monospace;
 body {
   background: #000;
-  margin: 10%;
+  margin: 4rem 20vw 0 10vw;
 }
 
 button {
@@ -23,7 +23,7 @@ button {
   span {
     position: relative;
     z-index: 3;
-    font-size: 17pt;
+    font-size: 2rem;
     color: #fff;
     font-family: $font-stack;
     font-weight: 400;
@@ -50,25 +50,28 @@ button {
 
 div.button-line {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 div.title {
   font-family: $font-stack;
   color: #FFF;
-  font-size: 180px;
+  font-size: 12rem;
   font-weight: bold;
-  margin-bottom: 40px;
+  margin-bottom: 3rem;
   text-align:center;
 }
 div.web_blurb {
   font-family: $font-stack;
   color: #FFF;
-  margin-bottom: 40px;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
   text-align:center;
 }
 a {
   font-family: $font-stack;
+  font-size: 2rem;
   text-decoration: none;
   padding:10px;
 }
