@@ -10,7 +10,6 @@ export default function App() {
             <ButtonRow>
                 <Button href="https://github.com/kschamplin">github</Button>
                 <Button href="https://gitlab.com/saji.champlin">gitlab</Button>
-                <Button href="https://github.com/kschamplin">linkedin</Button>
                 <Button href="mailto:saji@saji.dev?subject=Request%20for%20Resume">resume</Button>
             </ButtonRow>
         </div>
